@@ -1,0 +1,174 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+/*
+	navbar - Start
+*/
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-brand {
+  display: none;
+}
+
+a.navbar-brand.privacy {
+  display: block;
+}
+
+.navbar-brand img {
+  width: 50px;
+  position: relative;
+  top: -15px;
+}
+
+.brand-name {
+  top: 15px;
+  position: absolute;
+  left: 77px;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+
+/*
+	navbar - End 
+*/
+
+.content-body {
+  height: 80vh;
+}
+
+.upper-content {
+  height: 40vh;
+}
+
+.upper-content-brand {
+  display: flex;
+  align-items: center;
+}
+
+.upper-content-brand-name {
+  margin-left: 20px;
+  font-weight: 300;
+}
+
+.upper-content-brand img {
+  width: 80px;
+}
+
+.upper-content .brand-promro {
+  font-size: 18px;
+  color: #0D141F;
+  letter-spacing: 0.6px;
+  line-height: 32px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.lower-content {
+  background-image: url('../img/hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+}
+
+.form-signin-heading {
+  color: #FFFFFF;
+  line-height: 32px;
+  font-weight: 300;
+}
+
+.form-control {
+  border-radius: 12px;
+  padding: 25px 12px;
+  margin-top: 20px;
+}
+
+.form-btn {
+  background-image: linear-gradient(43deg, #2CB673 0%, #64D642 100%);
+  border-color: #2CB673;
+  border-radius: 8px;
+  right: 28px;
+  position: absolute;
+  width: auto;
+}
+
+.phone-demo img {
+  width: 100%;
+}
+
+.copy-write {
+  float: right;
+  position: relative;
+  top: 100px;
+  right: 40px;
+  opacity: 0.25;
+  color: #0D141F;
+  line-height: 28px;
+}
+
+.jumbotron {
+  background-image: linear-gradient(43deg, #2CB673 0%, #64D642 100%);
+  text-align: center;
+  color: #fff;
+}
+
+
+/* media */
+
+@media only screen and (min-width: 320px) {
+  .phone-demo {
+    position: relative;
+    top: 20px;
+    left: -15px;
+    width: 339px;
+  }
+  .lower-content {
+    height: auto;
+  }
+  .form-signin-heading {
+    font-size: 18px;
+    text-align: center;
+  }
+  .form-btn {
+    top: 61px;
+  }
+  .copy-write {
+    position: inherit;
+  }
+}
+
+@media screen and (min-width: 480px) {}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    display: block;
+  }
+  .upper-content-brand>* {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .phone-demo {
+    position: absolute;
+    top: 36px;
+    left: 85px;
+  }
+  .lower-content {
+    height: 50vh;
+  }
+  .form-signin-heading {
+    font-size: 24px;
+    text-align: left;
+  }
+  .form-btn {
+    top: 80px;
+  }
+}

@@ -1,3 +1,4 @@
+/* Body */
 body {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -5,10 +6,7 @@ body {
   font-size: 18px;
 }
 
-/*
-  Typography
-*/
-
+/* Typography */
 h1 {
   font-family: 'Work Sans', sans-serif;
   font-size: 48px;
@@ -50,15 +48,8 @@ p {
   color: #4F5051;
 }
 
-video {
 
-}
-
-
-/*
-	navbar - Start
-*/
-
+/* Navigation bar */
 .navbar-default {
   background-color: transparent;
   border-color: transparent;
@@ -95,10 +86,8 @@ a.navbar-brand.privacy {
     padding: 10px 40px;
 }
 
-/*
-	navbar - End
-*/
 
+/* Social media */
 li {
   list-style-type: none;
 }
@@ -110,10 +99,13 @@ li {
   float: left;
 }
 
+/* Makes all content 100% */
 .content-body {
   height: 100vh;
 }
 
+
+/* Top half content */
 .upper-content {
   height: 40vh;
 }
@@ -141,7 +133,7 @@ li {
   margin-top: 60px;
 }
 
-
+/* Lower half content + gradient */
 .lower-content {
   color: white;
   height: 50vh;
@@ -179,6 +171,7 @@ li {
         100%{background-position:0% 82%}
     }
 
+/* Form field */
 .form-signin-heading {
   color: #FFFFFF;
   line-height: 32px;
@@ -192,6 +185,7 @@ li {
   border: 1px solid white;
   font-size: 18px;
   font-weight: 300;
+  box-shadow: none;
 }
 
 .form-btn {
@@ -207,20 +201,20 @@ li {
   letter-spacing: 0.6px;
 }
 
+
+/* Cursor for input field */
+input:focus {
+  color: #54CD50
+}
+
+
+/* Video demo */
 .phone-demo img {
   width: 125%;
 }
 
-.copy-write {
-  float: right;
-  position: relative;
-  top: 100px;
-  right: 40px;
-  opacity: 0.25;
-  color: #0D141F;
-  line-height: 28px;
-}
 
+/* Full width hero */
 .jumbotron {
   background-image: linear-gradient(45deg, #2CB673 0%, #64D642 100%);
   text-align: center;
@@ -231,8 +225,7 @@ li {
 }
 
 
-/* media */
-
+/* Media Queries */
 @media only screen and (min-width: 320px) {
   .phone-demo {
     position: relative;
@@ -259,7 +252,10 @@ li {
 
 }
 
-@media screen and (min-width: 480px) {}
+
+@media screen and (min-width: 480px) {
+
+}
 
 @media (max-width: 768px) {
   .navbar-brand {
@@ -272,17 +268,15 @@ li {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-
   video {
   width: 92vw;
   align-items: center;
   }
-
   body {
     overflow: scroll;
   }
-
 }
+
 
 @media screen and (min-width: 768px) {
   .phone-demo {
@@ -303,5 +297,4 @@ li {
   .form-btn {
     width: 100px;
     top: 115px;  }
-
 }
